@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/shop_list_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請輸入商品條碼"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/good1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="條碼"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/good2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="條碼"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@+id/sure_shop_list"
+        android:text="確認購物"
+        android:layout_width="123dp"
+        android:layout_height="55dp"
+        android:textSize="35sp"/>
+</LinearLayout>
